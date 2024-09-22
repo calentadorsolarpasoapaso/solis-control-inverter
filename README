@@ -1,5 +1,4 @@
 # Extension of the library: https://github.com/stevegal/solis_control
-
 # solis_control
 
 solis control pyscript for home assistant.
@@ -44,7 +43,9 @@ data:
     username: USERNAME
     password: PASSWORD
     plantId: PLANT_ID
+    inverterSn: YOUR INVERTER SN
 ```
 Note the configuration items like `key_id`, `secret`, `plantId` and `password` must be defined as a string so wrap them in `"` to be sure.
 
 Note to find the plantId please follow the excellent instructions in [solis-sensor](https://github.com/hultenvp/solis-sensor)
+
